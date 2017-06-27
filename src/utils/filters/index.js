@@ -1,1 +1,1 @@
-export * from './toMoney'
+export { default as toMoney } from './toMoney'
