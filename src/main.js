@@ -6,8 +6,6 @@ import * as filters from './utils/filters'
 
 Vue.config.productionTip = false
 
-console.log(filters)
-
 Object.keys(filters).forEach(key => {
   Vue.filter(key, filters[key])
 })
